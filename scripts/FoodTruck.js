@@ -2,6 +2,7 @@ import { Sales } from "./Sales.js"
 import { EntreeOptions } from "./Entrees.js"
 import { SideOptions } from "./SideDishes.js"
 import { VegetableOptions } from "./Vegetables.js"
+import { purchaseButton } from "./Purchase.js"
 
 export const FoodTruck = async () => {
     const salesHTML = Sales()
@@ -28,7 +29,7 @@ export const FoodTruck = async () => {
         </article>
 
         <article>
-            <button id="purchase">Purchase Combo</button>
+            ${purchaseButton()}
         </article>
 
         <article class="customerOrders">
