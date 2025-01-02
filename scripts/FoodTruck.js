@@ -1,6 +1,7 @@
 import { Sales } from "./Sales.js"
+import { EntreeOptions } from "./Entrees.js"
 
-export const FoodTruck = () => {
+export const FoodTruck = async () => {
     const salesHTML = Sales()
 
     return `
@@ -9,18 +10,19 @@ export const FoodTruck = () => {
             <h1 class="title">Laura Kathryn's House of Hummus</h1>
         </header>
 
-        <div class="choices">
-            <article class ="options">
+        <article class="choices">
+            <section class ="choices_entrees options">
                 <h2>Entrees</h2>
-            </article>
-            <article class ="options">
+                ${await EntreeOptions()}
+            </section>
+            <section class ="choices_vegetables options">
                 <h2>Vegetables</h2>
-            </article>
-            <article class ="options">
+            </section>
+            <section class ="choices_sides options">
                 <h2>Sides</h2>
-            </article>
-        </div>
-        
+            </section>
+        </article>
+
         <article>
             <button id="purchase">Purchase Combo</button>
         </article>
