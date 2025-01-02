@@ -1,5 +1,7 @@
 import { Sales } from "./Sales.js"
 import { EntreeOptions } from "./Entrees.js"
+import { SideOptions } from "./SideDishes.js"
+import { VegetableOptions } from "./Vegetables.js"
 
 export const FoodTruck = async () => {
     const salesHTML = Sales()
@@ -17,9 +19,11 @@ export const FoodTruck = async () => {
             </section>
             <section class ="choices_vegetables options">
                 <h2>Vegetables</h2>
+                ${await VegetableOptions()}
             </section>
             <section class ="choices_sides options">
                 <h2>Sides</h2>
+                ${await SideOptions()}
             </section>
         </article>
 
