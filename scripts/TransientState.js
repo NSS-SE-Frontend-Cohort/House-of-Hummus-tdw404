@@ -16,6 +16,12 @@ export const setSide = (selected) => {
     transientState.sideId = selected
 }
 
+export const resetState = () => {
+    transientState.entreeId = 0
+    transientState.vegetableId = 0
+    transientState.sideId = 0
+}
+
 export const saveOrder = async () => {
     if (transientState.entreeId > 0 && transientState.vegetableId > 0 && transientState.sideId > 0) {
         const postOptions = {

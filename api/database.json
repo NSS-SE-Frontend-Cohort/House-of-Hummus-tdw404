@@ -148,6 +148,48 @@
       "vegetableId": 5,
       "sideId": 3,
       "id": "sWD7Xl-"
+    },
+    {
+      "entreeId": 8,
+      "vegetableId": 7,
+      "sideId": 6,
+      "id": "iodIS1b"
+    },
+    {
+      "entreeId": 9,
+      "vegetableId": 6,
+      "sideId": 2,
+      "id": "8_tmie6"
+    },
+    {
+      "entreeId": 2,
+      "vegetableId": 5,
+      "sideId": 5,
+      "id": "HilXJas"
+    },
+    {
+      "entreeId": 9,
+      "vegetableId": 3,
+      "sideId": 4,
+      "id": "3Dt-03D"
+    },
+    {
+      "entreeId": 3,
+      "vegetableId": 2,
+      "sideId": 4,
+      "id": "ixziGIW"
+    },
+    {
+      "entreeId": 3,
+      "vegetableId": 4,
+      "sideId": 5,
+      "id": "1nXTyp-"
+    },
+    {
+      "entreeId": 9,
+      "vegetableId": 7,
+      "sideId": 1,
+      "id": "zFKgn_N"
     }
   ]
 }

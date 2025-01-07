@@ -1,4 +1,4 @@
-import { saveOrder } from "./TransientState.js"
+import { resetState, saveOrder } from "./TransientState.js"
 
 export const purchaseButton = () => {
     document.addEventListener("click", purchaseClick)
@@ -9,6 +9,7 @@ const purchaseClick = async (clickEvent) => {
     if (clickEvent.target.id === "purchase") {
         if (await saveOrder()) {
             document.dispatchEvent(new CustomEvent("purchaseEvent"))
+            resetState()
         } else {
             alert("Please make a selection for each option")
         }
