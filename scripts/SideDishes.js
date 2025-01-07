@@ -5,7 +5,7 @@ export const SideOptions = async () => {
     const response = await fetch("http://localhost:8088/sides")
     return (await response.json()).map(element => {
         return `<div>
-        <input type='radio' name='sideOption' value='${element.id}' /> ${element.title}
+        <input type='radio' class='hoverPointer' name='sideOption' value='${element.id}' /> ${element.title}
         </div>`
     }).join(`\n`)
 }

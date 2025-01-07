@@ -2,7 +2,7 @@ import { saveOrder } from "./TransientState.js"
 
 export const purchaseButton = () => {
     document.addEventListener("click", purchaseClick)
-    return "<button id='purchase'>Purchase Combo</button>"
+    return "<button class='hoverPointer' id='purchase'>Purchase Combo</button>"
 }
 
 const purchaseClick = async (clickEvent) => {
@@ -12,5 +12,6 @@ const purchaseClick = async (clickEvent) => {
         } else {
             alert("Please make a selection for each option")
         }
+        document.activeElement.blur()
     }
 }

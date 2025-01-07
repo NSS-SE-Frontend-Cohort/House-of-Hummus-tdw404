@@ -132,40 +132,22 @@
   ],
   "purchases": [
     {
-      "id": "548f",
-      "entreeId": 1,
-      "vegetableId": 1,
-      "sideId": 1
-    },
-    {
-      "id": "9b97",
-      "entreeId": "2",
-      "vegetableId": 4,
-      "sideId": 4
-    },
-    {
-      "id": "942d",
-      "entreeId": "2",
-      "vegetableId": 4,
-      "sideId": 4
-    },
-    {
-      "id": "2819",
-      "entreeId": "2",
-      "vegetableId": 3,
+      "id": "7691",
+      "entreeId": 2,
+      "vegetableId": 2,
       "sideId": 2
     },
     {
-      "id": "6aab",
-      "entreeId": "2",
+      "entreeId": 3,
       "vegetableId": 3,
-      "sideId": 2
+      "sideId": 2,
+      "id": "EaNcETb"
     },
     {
-      "id": "043a",
-      "entreeId": "2",
-      "vegetableId": 3,
-      "sideId": 2
+      "entreeId": 9,
+      "vegetableId": 5,
+      "sideId": 3,
+      "id": "sWD7Xl-"
     }
   ]
 }

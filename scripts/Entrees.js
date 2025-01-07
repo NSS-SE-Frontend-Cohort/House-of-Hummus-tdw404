@@ -5,13 +5,13 @@ export const EntreeOptions = async () => {
     const response = await fetch("http://localhost:8088/entrees")
     return (await response.json()).map(element => {
         return `<div>
-        <input type='radio' name='entreeOption' value='${element.id}' /> ${element.name}
+        <input type='radio' class='hoverPointer' name='entreeOption' value='${element.id}' /> ${element.name}
         </div>`
     }).join(`\n`)
 }
 
 const handleEntreeChoice = (event) => {
     if (event.target.name === "entreeOption") {
-        setEntree(event.target.value)
+        setEntree(parseInt(event.target.value))
     }
 }

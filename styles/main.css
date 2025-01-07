@@ -28,6 +28,14 @@ ul {
     padding-inline-start: 0.75rem;
 }
 
+button:focus {
+    background: #e5e5e5;
+    outline: none;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+       -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+            box-shadow: inset 0px 0px 5px #c1c1c1;
+  }
+
 #purchase {
     margin: 1rem 0 2rem 2rem;
     padding: 0.5rem;
@@ -47,4 +55,8 @@ ul {
 .title {
     text-align: center;
     margin: 1rem 0 3rem 2rem;
+}
+
+.hoverPointer {
+    cursor: pointer;
 }
