@@ -34,7 +34,7 @@ export const FoodTruck = async () => {
 
         <article class="customerOrders">
             <h2>Monthly Sales</h2>
-            ${salesHTML}
+            ${await Sales()}
         </article>
 
     `

@@ -12,6 +12,6 @@ export const EntreeOptions = async () => {
 
 const handleEntreeChoice = (event) => {
     if (event.target.name === "entreeOption") {
-        setEntree(parseInt(event.target.value))
+        setEntree(event.target.value)
     }
 }

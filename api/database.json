@@ -138,8 +138,32 @@
       "sideId": 1
     },
     {
-      "id": "a9dc",
-      "entreeId": 1,
+      "id": "9b97",
+      "entreeId": "2",
+      "vegetableId": 4,
+      "sideId": 4
+    },
+    {
+      "id": "942d",
+      "entreeId": "2",
+      "vegetableId": 4,
+      "sideId": 4
+    },
+    {
+      "id": "2819",
+      "entreeId": "2",
+      "vegetableId": 3,
+      "sideId": 2
+    },
+    {
+      "id": "6aab",
+      "entreeId": "2",
+      "vegetableId": 3,
+      "sideId": 2
+    },
+    {
+      "id": "043a",
+      "entreeId": "2",
       "vegetableId": 3,
       "sideId": 2
     }
